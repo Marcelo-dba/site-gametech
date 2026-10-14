@@ -1,0 +1,139 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header img {
+  height: 70px;
+  width: 70px;
+}
+
+#section-banners img {
+  height: 500px;
+  object-fit: cover;
+}
+
+#section-destaque,
+#section-vendidos,
+#section-novidades,
+#section-galeria {
+  padding: 40px 0;
+  text-align: center;
+}
+
+#section-destaque h2,
+#section-vendidos h2,
+#section-novidades h2,
+#section-galeria h2 {
+  font-weight: bold;
+  padding: 20px;
+}
+
+#section-destaque img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+#section-vendidos img,
+#section-novidades img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#section-vendidos .card,
+#section-novidades .card {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.preco {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#section-galeria img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: #212529;
+  color: #fff;
+}
+
+footer p {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+}
+
+#voltar-topo {
+  position: fixed;
+  bottom: 5px;
+  right: 50px;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 991px) {
+  #section-banners img {
+    height: 350px;
+  }
+
+  #section-destaque img {
+    height: 280px;
+  }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 575px) {
+  #section-banners img {
+    height: 250px;
+  }
+
+  #section-vendidos img,
+  #section-novidades img {
+    height: 220px;
+  }
+
+  #section-destaque img {
+    height: 220px;
+  }
+
+  #voltar-topo {
+    right: 15px;
+  }
+}
+#section-login {
+  margin-top: 100px;
+}
+
+#section-login h1 {
+  text-align: center;
+}
+
+#section-login input {
+  width: 100%;
+}
+
+#section-cadastro {
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#form-cadastrar {
+  padding: 50px;
+  display: none;
+}
